@@ -1,0 +1,41 @@
+/**{
+    border: 1px dotted red
+}*/
+body {
+    background-color:black;
+    font-family: 'Roboto', sans-serif;
+}
+.ip-container{
+    background-color: white;
+    margin: auto;
+    width: 600px;
+}
+.ip-head, .ip-content .icons {
+    display: flex;
+}
+.ip-head{
+    height: 40px;
+    padding: 10px;
+}
+.ip-head .dot-menu, .fa-bookmark{
+    margin-left: auto;
+}
+.ip-head > div > p{
+    margin: 0;
+}
+.ip-image{
+    min-height: 400px;
+    display:flex;
+    align-items: center;
+}
+.ip-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.ip-content{
+    padding: 10px;
+}
+.followers, .description{
+    text-align: justify;
+}
