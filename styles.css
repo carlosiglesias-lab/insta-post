@@ -13,6 +13,15 @@ body {
 .ip-head, .ip-content .icons {
     display: flex;
 }
+.icons, .ip-user, .dot-menu{
+    font-size: 2em;
+}
+.icons i:nth-child(2) , .ip-user i{
+    padding:0 5px;
+}
+.fab.fa-html5, .dot-menu {
+    vertical-align: middle;
+  }
 .ip-head{
     height: 40px;
     padding: 10px;
